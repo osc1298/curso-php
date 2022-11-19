@@ -1,0 +1,18 @@
+{
+    "name": "oeckerdt/php-frame-work",
+    "description": "Proyecto Basico",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "osc1298",
+            "email": "osc.eck11@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {"psr-4": {
+        "App\\":"app/"},
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
